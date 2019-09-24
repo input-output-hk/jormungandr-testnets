@@ -16,6 +16,7 @@ We are trying to run the following kind of testnet deployment:
 
 | deployment | status | description |
 |-----------:|:------:|:------------|
+| [v0.5.0-nightly-x1](./nightly/v0.5.0/x1/README.md) | up | starting a simple deployment for the nightly testnet for internal use only |
 
 ## Previous deployment
 
