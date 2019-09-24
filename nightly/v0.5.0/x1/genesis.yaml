@@ -1,0 +1,23 @@
+# This is the default generated blockchain genesis
+# update the 'blockchain_configuration' to try new settings
+
+blockchain_configuration:
+  block0_date: 1569320910
+  discrimination: test
+  slots_per_epoch: 21600
+  slot_duration: 2s
+  consensus_genesis_praos_active_slot_coeff: 0.1
+  consensus_leader_ids:
+    - ed25519_pk122sj6zggcngxvvkjph4y6mw3a82lqusvvl52cy85zp028kjnm5jqlswz56
+  linear_fees:
+    constant: 10
+    coefficient: 0
+    certificate: 0
+  block0_consensus: genesis_praos
+  kes_update_speed: 12h
+initial:
+  - fund:
+      - address: ca1shcu85pw5jnrwrdepzmmjzl8sygp0f36hrkedw325vvlupulhs4h78yt9wy
+        value: 50000000000
+  - cert: cert1qvqqqqqqqqqqqqqqqqqqq0p5avfqqqqqqqqqqqqqqqqsqq2j5yksjzxy6pnr95sdafxkm50f6hc8yrr8azkppaqst63a557aysqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqpqqqqqqqqqqqqpfyzxqgvkhptk262c95lawc222u82wrwydnhn3d5a0umva3qq6zqx2jyqnkhml8y7upy309m86tru6zcf77tws4aj4gzk5qetqzf79dsan9fj8
+  - cert: cert1q8cu85pw5jnrwrdepzmmjzl8sygp0f36hrkedw325vvlupulhs4h7dtjr53fd06uaxvzw98a6ye6t04tvauca56j0wuhnzhctt9yppynh3j3j0
